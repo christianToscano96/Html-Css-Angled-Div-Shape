@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: #262626;
+    background: #ffffff;
 }
 
 section {
@@ -21,6 +21,9 @@ section {
     height: 100%;
     background: #000;
     box-sizing: border-box;
+    padding: 30px 50px;
+    font-family: sans-serif;
+    color: #fff;
 }
 .imageBox {
     width: calc(50% + 50px);
@@ -29,4 +32,11 @@ section {
     box-sizing: border-box;
     border-left: 100px solid #000;
     border-bottom: 400px solid transparent;
+    background: url('img/bg2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+    
 }
